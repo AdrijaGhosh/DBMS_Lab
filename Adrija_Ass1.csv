@@ -1,0 +1,3 @@
+CUST_ID,FIRST_NAME,LAST_NAME,TERRITORY,CRED_LIMIT,MNGR_ID,MARITAL_STATUS,STAY_FROM_YEAR,MANAGER_NAME,AGE
+3,Adrija,Ghosh,India,7000,908rqtr,Single              , - ,SRK, - 
+1,James,Gomez,America,8700,123xxtr,Married             ,2001,Amit, - 
