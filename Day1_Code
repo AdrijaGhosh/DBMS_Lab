@@ -1,0 +1,51 @@
+--create table shr(id number,name varchar2(20));
+--insert into shr(id,name) values(1,'asha1');
+--desc shr
+--select * from shr;
+--update shr set name='Adrija' where id=1;
+--select * from shr
+--drop table shr
+--flashback table shr to before drop
+--select * from shr
+--insert into shr(id,name) values(2,'Adee');
+--select * from shr
+--delete from shr where id=1;
+--select * from shr
+--alter table shr add address varchar2(10) default 'kolkata';
+--select * from shr
+
+--create table customer(cust_id number,cust_fname varchar2(20),cust_lname varchar2(20),territory varchar2(20),cred_limit number,mngr_id varchar2(20),marital_status char(20),income number);
+--desc customer
+--insert into customer(cust_id,cust_fname,cust_lname,territory,cred_limit,mngr_id,marital_status,income) values(1,"James","Gomez",'America',8700,'123xxtr','Married',10050);
+--insert into customer values(1,'James','Gomez','America',8700,'123xxtr','Married',10050);
+--select * from customer
+--insert into customer values(2,'Meg','Sen','Italy',2300,'497rqtr','Its complicated',5400);
+--select * from customer
+--insert into customer values(3,'Adrija','Ghosh','India',5000,'908rqtr','Single',89400);
+--select * from customer
+--alter table customer add stay_from_year number;
+--update customer set stay_from_year=2001 where territory='America';
+--select * from customer
+--select cred_limit from customer 
+    --where territory='America' ;
+--delete from customer where cust_fname='Meg' and cust_lname='Sen';
+--select * from customer
+--select * from customer
+	--where territory='Italy';
+--update customer set cred_limit=7000 where territory='India' and marital_status='Single';
+--select * from customer
+--alter table customer rename column cust_fname to first_name;
+--alter table customer rename column cust_lname to last_name;
+--select * from customer
+--alter table customer drop column income;
+--alter table customer rename to cust_one;
+--alter table cust_one add manager_name char(20);
+--select * from cust_one;
+--update cust_one set manager_name='SRK' where cust_id=3;
+--select * from cust_one;
+--update cust_one set manager_name='Amit' where cust_id=1;
+--select * from cust_one;
+--alter table cust_one add age number;
+--drop table cust_one;
+--flashback table cust_one to before drop
+select * from cust_one;
