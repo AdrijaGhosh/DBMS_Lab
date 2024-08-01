@@ -1,0 +1,10 @@
+--select * from HR.Employees;
+--desc HR.Employees;
+--select ((((salary+200)-salary)/salary)*100)as pentinc  from HR.Employees;
+--select * from HR.Employees;
+--select hire_date,round(months_between(sysdate,hire_date)/12,2) as work_month from HR.Employees;
+--select * from HR.Employees where job_id not in('ST_CLERK','ST_MAN');
+--select first_name ||' is a '||job_id ||' working in a company for last '|| round(months_between(sysdate,hire_date)/12,2)||' years ' from HR.Employees;.l
+--select * from HR.Employees where hire_date between '01-JAN-2000' and '31-DEC-2008'
+--select * from HR.Employees where first_name like '%a%';
+select * from HR.Employees where hire_date >='01-JAN-2000' and job_id in ('ST_CLERK') and salary>2500;
