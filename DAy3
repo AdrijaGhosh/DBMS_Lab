@@ -1,0 +1,92 @@
+--create table dept(
+--    dept_id number(3)primary key,dept_name varchar2(10) 
+--);
+--insert into dept values(90,'CSE(IOT)');
+--insert into dept values(69,'IT');
+--insert into dept values(100,'CSE');
+--insert into dept values(110,'ECE');
+--SELECT * from dept
+--create table students(
+--    stud_id number(3)primary key,
+--      	name varchar2(15),
+--		marks number(5,2),
+--    	dept_id number(3),
+--        constraint fk_dept_id foreign key (dept_id)
+--        references dept(dept_id)
+          
+--);
+--insert into students values(1,'Adrija',98.5,90);
+--insert into students values(2,'Aditya',29.5,69);
+--insert into students values(3,'Shyantan',78.5,100);
+--insert into students values(4,'Rimi',98.5,110);
+--select * from students
+--insert into students values(5,'Ryan',98.5,50);
+--select name, marks from students where name like '%d%'
+/*create table cust100(
+    emp_id number(3) primary key,
+    first_name varchar2(10),
+    last_name varchar2(10),
+    e_mail varchar2(20),
+    ph_no varchar2(15),
+    hire_date date,
+    jod_id varchar2(10),
+    salary number(8,2),
+    mgr_id number(3),
+    dept_id number(3)
+);*/
+--alter table cust100 add constraint chk_cap check(upper(substr(first_name,1,1))=substr(first_name,1,1))
+--alter table cust100 add constraint chk_cap2 check((upper(substr(last_name,1,1))=substr(last_name,1,1)) and last_name is not null);
+--alter table cust100 add constraint chk_cap3 check(upper(substr(e_mail,1,20))=substr(e_mail,1,20))
+--alter table cust100 add constraint ten_dig check(length(ph_no)=10)
+--alter table cust100 add constraint job_date check(hire_date >'01-JAN-1980')
+--alter table cust100 add constraint chk_start check(substr(jod_id,1,2)='FI');
+--alter table cust100 rename column jod_id to job_id
+--alter table cust100 add constraint chk_start2 check(substr(job_id,1,2)='FI' or substr(job_id,1,2)='AD' or substr(job_id,1,2)='AT');
+--alter table cust100 add constraint salry check(salary>4000 and salary<25000);
+--alter table cust100 add constraint for_k_dept_id foreign key (dept_id) references dept(dept_id)
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
