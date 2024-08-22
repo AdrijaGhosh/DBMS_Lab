@@ -1,0 +1,54 @@
+--create table sailor(sid varchar(3),sname char(10),mname char(10),surname char(10),rating number(2),age number(3,1));
+--desc sailor;
+--insert into sailor values('s22','Fredrico',null,'Roberts',7,45)
+--insert into sailor values('s31','Lubber',null,'Sheen',8,55.8)
+--insert into sailor values('s32','Charlotte',null,'Tilbury',8,25.5)
+--insert into sailor values('s58','Mary','Beth','Lyon',10,35)
+--insert into sailor values('s64','Horatio',null,'Powell',7,35.4)
+--insert into sailor values('s71','Zorba',null,'Alex',10,16)
+--insert into sailor values('s29','Brutus',null,'Slater',1,33.8)
+--insert into sailor values('s95','Deep','Graceb','Davis',3,63.8)
+--insert into sailor values('s74','Horatio',null,'Forrest',9,35)
+--insert into sailor values('s85','Sara','Art','Powell',3,25.5)
+--insert into sailor values('s80','Deep','kumar','Kumar',6,17)
+--insert into sailor values('s22','Deep','Kumar','Jha',8,51)
+--insert into sailor values('s31','Lubber',null,'Sheen',8,55.8)
+--select * from sailor
+
+
+--create table boat (bid varchar(3),bname char(20),colour char(10))
+--insert into boat values('b11','Interlake','blue')
+--insert into boat values('b12','Interlake','red')
+--insert into boat values('b13','Clipper','green')
+--insert into boat values('b14','Marine','red')
+--select * from boat
+/*create table reserve(
+    sid varchar(3),
+    bid varchar(3),
+    r_day date
+    
+);*/
+--insert into reserve values('s22','b11','10-OCT-98')
+--insert into reserve values('s22','b13','10-AUG-98')
+--insert into reserve values('s22','b12','10-OCT-98')
+--insert into reserve values('s22','b14','10-JUL-98')
+--insert into reserve values('s31','b12','11-OCT-98')
+--insert into reserve values('s31','b12','11-JUN-98')
+--insert into reserve values('s31','b14','11-DEC-98')
+--insert into reserve values('s64','b12','9-MAY-98')
+
+--insert into reserve values('s74','b13','10-OCT-98')
+--insert into reserve values('s80','b12','7-JUL-98')
+--insert into reserve values('s87','b11','8-JUL-98')
+--insert into reserve values('s87','b12','12-DEC-98')
+select * from reserve
+
+
+
+
+
+
+
+
+
+
